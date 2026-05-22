@@ -1,0 +1,62 @@
+/*- Additional colors ----------*/
+.bg-mycolor {
+    background-color: #d08047;
+}
+
+.bg-mygray{
+    background-color: #282828;
+}
+
+.color1{
+    color: #d08047;
+}
+
+/*- Main ----------*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+    color: #383c3c;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*- List ----*/
+ol li {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+/*- Button ----------*/
+.btn{
+    padding: 0.25rem 0.5rem;
+}
+
+/*- Hyper link ----------*/
+a {
+    color: #d08047;
+    /*text-decoration: none;*/
+}
+a:hover {
+    color: #d08047;
+    text-decoration: none;
+    /*text-decoration: underline;*/
+}
+
+/*- Footer ----------*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+    height: 50px;
+    /*text-align: center*/
+}
+
+/*- Dropdown ----------*/
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #d08047;
+}
+
